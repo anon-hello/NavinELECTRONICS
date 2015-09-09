@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.navin.coin"
+        versionCode = "1.0.1"
+        version     = "1.0.0" >
+
+	<name>Navin</name>
+
+	<description>Navin Electronics is a leading provider of Home Appliances, Electronic in Surat</description>
+
+	<author href="omcom.in" email="support@omcom.in">jai</author>
+
+	<gap:platform name="android" />
+
+	<preference name="disallowOverscroll" value="true" />
+	<preference name="webviewbounce" value="false" />
+
+	<!-- Add Icon, Splash screen and any PhoneGap plugin declaration here -->
+
+	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
+	<gap:plugin name="org.apache.cordova.network-information" source="npm" />
+
+</widget>
